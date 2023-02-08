@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;800&display=swap" rel="stylesheet">
+    <title>News Homepage Main - Frontend Mentor challenge</title>
+    <meta name="description"
+        content="The latest news from the IT world. You will surely find what you are looking for here.">
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+</head>
+
+<body>
+
+    <header class="header wrapper">
+        <div class="header__logo"><a href="#"><img src="./dist/img/logo.svg" alt="logo strony"></a></div>
+
+        <nav class="navbar">
+            <button class="navbar__hamburger"><img src="./dist/img/icon-menu.svg" alt="ikona hamburger menu"></button>
+            <button class="navbar__close"><img src="./dist/img/icon-menu-close.svg"
+                    alt="ikona zamknięcia menu"></button>
+
+            <div class="navbar__list">
+                <a href="#" class="navbar__list-item">Home</a>
+                <a href="#news" class="navbar__list-item">New</a>
+                <a href="#popular" class="navbar__list-item">Popular</a>
+                <a href="#" class="navbar__list-item">Trending</a>
+                <a href="#" class="navbar__list-item">Categories</a>
+            </div>
+
+            <div class="navbar__bg-shadow"></div>
+        </nav>
+    </header>
+
+    <main class="main wrapper">
+        <section class="main-news">
+            <div class="main-news__img"></div>
+            <div class="main-news__box-txt">
+                <div class="main-news__title">
+                    <h1 class="main-news__title-item">The Bright Future of Web 3.0?</h1>
+                </div>
+                <div class="main-news__text">
+                    <p class="main-news__text-item">We dive into the next evolution of the web that claims to put the
+                        power
+                        of
+                        the platforms back into the hands of the people. But is it really fulfilling its promisa?</p>
+                    <a href="#" class="main-news__button">read more</a>
+                </div>
+            </div>
+        </section>
+        <section id="news" class="new-news">
+            <div class="new-news__container">
+                <h2 class="new-news__title">New</h2>
+                <div class="new-news__box">
+                    <a href="#" class="new-news__name">Hydrogen VS Electric Cars</a>
+                    <p class="new-news__info">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                </div>
+                <div class="new-news__line"></div>
+                <div class="new-news__box">
+                    <a href="#" class="new-news__name">The Downsides of AI Artistry</a>
+                    <p class="new-news__info">What are the possible adverse effects of on-demand AI image generation?
+                    </p>
+                </div>
+                <div class="new-news__line"></div>
+                <div class="new-news__box">
+                    <a href="#" class="new-news__name">Is VC Funding Drying Up?</a>
+                    <p class="new-news__info">Private funding by VC firms is down 50% YOY. We take a look at what that
+                        means.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="popular" class="popular">
+            <div class="popular__box">
+                <div class="popular__box-img">
+                    <img src="./dist/img/image-retro-pcs.jpg" alt="Stary komputer" class="popular__img">
+                </div>
+                <div class="popular__box-txt">
+                    <p class="popular__number">01</p>
+                    <a href="#" class="popular__title">Reviving Retro PCs</a>
+                    <p class="popular__info">What happens when old PCs are given modern upgrades?</p>
+                </div>
+            </div>
+            <div class="popular__box">
+                <div class="popular__box-img">
+                    <img src="./dist/img/image-top-laptops.jpg"
+                        alt="Klawisze klawiatury laptopa o kolorze czarnym z czerwonym podświetleniem"
+                        class="popular__img">
+                </div>
+                <div class="popular__box-txt">
+                    <p class="popular__number">02</p>
+                    <a href="#" class="popular__title">Top 10 Laptops of 2022</a>
+                    <p class="popular__info">Our best picks for various needs and budgets.</p>
+                </div>
+            </div>
+            <div class="popular__box">
+                <div class="popular__box-img">
+                    <img src="./dist/img/image-gaming-growth.jpg"
+                        alt="Podrzucony pad od ps4 w kolorze białym który spada do wyciągnietej dłoni"
+                        class="popular__img">
+                </div>
+                <div class="popular__box-txt">
+                    <p class="popular__number">03</p>
+                    <a href="#" class="popular__title">The Growth of Gaming</a>
+                    <p class="popular__info">How the pandemic has sparked fresh opportunities.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__info">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+                class="footer__link">Frontend Mentor</a>.
+            Coded by <a href="https://github.com/Misfity91?tab=repositories" target="_blank" class="footer__link">Rafał
+                Chundzyński</a>.</p>
+    </footer>
+
+    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
